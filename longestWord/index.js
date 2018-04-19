@@ -9,7 +9,7 @@
   assume sen will not be empty. 
   Use the Parameter Testing feature in the box below to test your
   code with different arguments.
-  
+
 */
 
 
@@ -34,7 +34,7 @@ function firstLongestWord(sen) {
 
 
 const longestWord = sen => {
-  let words = sen.replace(/[^\w\s]/gi, '').split(" ")
+  let words = sen.replace(/[^\w\s]/gi, '').split(' ')
   
   return words.reduce((prev, next) =>
     prev.length >= next.length
